@@ -4,6 +4,7 @@ class ExempleClass {
 }
 
 
+
 const ALL_VALUE = [
     ["", "something",
 `It's been a complex string,

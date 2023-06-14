@@ -3,10 +3,23 @@ https://developer.mozilla.org/en-US/
 
 # Play with code
 
-- 1 go to https://vscode.dev/
-- 2 click "Ouvrir un référentiel distant"
-- 3 copy past "https://github.com/c0ncentus/tutoTs"
+- 1 https://github.dev/c0ncentus/tutoTs
+- 2 install many extention like :
+    <!-- - CodeRunner -->
+    <!-- - Turbo Console Log -->
+    - Error Lens
+    <!-- - Doxygen Documentation Generator -->
+    - ts-barrelr
 
+    More later ...
+    <!-- - Fabulous -->
+    <!-- - Excel Viewer -->
+    - HTML Play
+
+- 3 When you read code, if you see some commented code like ```typescript
+// const b = 3
+``` 
+then use "ctrl + :" , you should see an error, and then try to understand and then re-use "ctrl + :" on the same line
 
 # Memo
 
