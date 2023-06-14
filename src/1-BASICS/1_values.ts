@@ -23,7 +23,10 @@ from into abyss.
 
 ALL_VALUE.forEach((arr,i)=>{
     console.log(`<=== Begin ${i+1} ===>`)
-    arr.forEach((e)=>{console.log(`type:${typeof e} value:${e}`)})
+    arr.forEach((e)=>{console.log(`
+    type:${typeof e} 
+    value:${e===""?'\"\"':e}
+    `)})
     console.log(`<=== end ${i+1} ===>`)
     console.log()
 })

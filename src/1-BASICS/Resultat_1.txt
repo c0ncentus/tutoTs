@@ -1,0 +1,89 @@
+<=== Begin 1 ===>
+
+    type:string 
+    value:""
+    
+
+    type:string 
+    value:something
+    
+
+    type:string 
+    value:It's been a complex string,
+from into abyss.
+
+... and it's over.
+
+    
+<=== end 1 ===>
+
+<=== Begin 2 ===>
+
+    type:undefined 
+    value:undefined
+    
+<=== end 2 ===>
+
+<=== Begin 3 ===>
+
+    type:object 
+    value:null
+    
+
+    type:object 
+    value:[object Object]
+    
+
+    type:object 
+    value:[object Object]
+    
+<=== end 3 ===>
+
+<=== Begin 4 ===>
+
+    type:object 
+    value:Thu Jan 01 1970 01:00:00 GMT+0100 (heure normale d’Europe centrale)
+    
+
+    type:object 
+    value:[object Object]
+    
+<=== end 4 ===>
+
+<=== Begin 5 ===>
+
+    type:boolean 
+    value:false
+    
+
+    type:boolean 
+    value:true
+    
+<=== end 5 ===>
+
+<=== Begin 6 ===>
+
+    type:number 
+    value:1
+    
+
+    type:number 
+    value:4.5
+    
+
+    type:number 
+    value:-10
+    
+
+    type:number 
+    value:0
+    
+<=== end 6 ===>
+
+<=== Begin 7 ===>
+
+    type:object 
+    value:
+    
+<=== end 7 ===>
+

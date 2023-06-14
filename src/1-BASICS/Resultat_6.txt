@@ -1,0 +1,18 @@
+ARRAY: 3,3,3,3,3,3,3,3,3,3,3,3,something
+ARRAY.length: 13
+ARRAY.every(x => x === 3): false
+ARRAY.some(x => x === "something"): true
+ARRAY.filter(x => x === 3): 3,3,3,3,3,3,3,3,3,3,3,3
+ARRAY.map(x => { return typeof x === "string" ? x + "3" : x + 3 }): 6,6,6,6,6,6,6,6,6,6,6,6,something3
+ARRAY.find(x =>x==="something"): something
+ARRAY.findIndex(x =>x==="something"): 12
+ARRAY.join("; "): 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; something
+ARRAY.includes("some"): false
+ARRAY.includes("something"): true
+ARRAY.indexOf("something"): 12
+for_each_var: 78
+PUSH_ARRAY: 3,3,3,3,3,3,3,3,3,3,3,3,something,Locked,Unlocked
+SPLICE_ARRAY: 
+uniq(ARRAY):3,something
+flatten([[[[[4]], 5]], 9] as any): 4,5,9
+sortBy([3,4,2,6,0],(x=>x)): 0,2,3,4,6

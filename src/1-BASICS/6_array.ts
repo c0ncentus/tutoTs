@@ -33,17 +33,17 @@ const ARRAY = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, "something"];
 
 // you will use this at 90% of the time when do some operation on arrays
 console.log(`ARRAY: ${ARRAY}`)
-console.log(`ARRAY.length ${ARRAY.length}`);
-console.log(`ARRAY.every(x => x === 3); ${ARRAY.every(x => x === 3)}`);
-console.log(`ARRAY.some(x => x === "something"); ${ARRAY.some(x => x === "something")}`);
-console.log(`ARRAY.filter(x => x === 3); ${ARRAY.filter(x => x === 3)}`);
-console.log(`ARRAY.map(x => { return typeof x === "string" ? x + "3" : x + 3 }); ${ARRAY.map(x => { return typeof x === "string" ? x + "3" : x + 3 })}`);
-console.log(`ARRAY.find(x =>x==="something"); ${ARRAY.find(x => x === "something")}`);
-console.log(`ARRAY.findIndex(x =>x==="something"); ${ARRAY.findIndex(x => x === "something")}`);
-console.log(`ARRAY.join("; "); ${ARRAY.join("; ")}`);
-console.log(`ARRAY.includes("some"); ${ARRAY.includes("some")}`);
-console.log(`ARRAY.includes("something"); ${ARRAY.includes("something")}`);
-console.log(`ARRAY.indexOf("something"); ${ARRAY.indexOf("something")}`);
+console.log(`ARRAY.length: ${ARRAY.length}`);
+console.log(`ARRAY.every(x => x === 3): ${ARRAY.every(x => x === 3)}`);
+console.log(`ARRAY.some(x => x === "something"): ${ARRAY.some(x => x === "something")}`);
+console.log(`ARRAY.filter(x => x === 3): ${ARRAY.filter(x => x === 3)}`);
+console.log(`ARRAY.map(x => { return typeof x === "string" ? x + "3" : x + 3 }): ${ARRAY.map(x => { return typeof x === "string" ? x + "3" : x + 3 })}`);
+console.log(`ARRAY.find(x =>x==="something"): ${ARRAY.find(x => x === "something")}`);
+console.log(`ARRAY.findIndex(x =>x==="something"): ${ARRAY.findIndex(x => x === "something")}`);
+console.log(`ARRAY.join("; "): ${ARRAY.join("; ")}`);
+console.log(`ARRAY.includes("some"): ${ARRAY.includes("some")}`);
+console.log(`ARRAY.includes("something"): ${ARRAY.includes("something")}`);
+console.log(`ARRAY.indexOf("something"): ${ARRAY.indexOf("something")}`);
 
 let for_each_var = 0
 ARRAY.forEach((x, index) => for_each_var = for_each_var + index);
@@ -53,7 +53,7 @@ console.log(`for_each_var: ${for_each_var}`)
 let PUSH_ARRAY = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, "something"];
 PUSH_ARRAY.push("Locked");
 PUSH_ARRAY.push("Unlocked");
-
+console.log(`PUSH_ARRAY: ${PUSH_ARRAY}`)
 
 // [3, 3, 3, undefined , 3, "something"]; is the same things as below  => [3, 3, 3, , 3, "something"]
 let SPLICE_ARRAY = [3, 3, 3, , 3, "something"];
@@ -63,6 +63,7 @@ SPLICE_ARRAY.splice(0, 1)
 SPLICE_ARRAY.splice(0, 1)
 SPLICE_ARRAY.splice(0, 1)
 SPLICE_ARRAY.splice(0, 1)
+console.log(`SPLICE_ARRAY: ${SPLICE_ARRAY}`)
 // SPLICE_ARRAY.splice(0,1) // when execute thing, throws error because the array is empty = U_ARRAY.length = 0
 
 

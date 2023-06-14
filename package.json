@@ -9,7 +9,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "type": "module",
+  "type": "commonjs",
   "author": {
     "name": "c0ncentus",
     "email": "jeremymartin33610@gmail.com",
@@ -34,8 +34,7 @@
   ],
 
   "scripts": {
-    "update": "npm update && npm-upgrade-monorepo -w package/*",
-    "test": "ts-node package\\_Test_\\src\\cli.ts"
+    "start": "ts-node src/1-BASICS/1_values.ts > src/1-BASICS/Resultat_1.txt && ts-node src/1-BASICS/2_variable.ts > src/1-BASICS/Resultat_2.txt && ts-node src/1-BASICS/3_operator.ts > src/1-BASICS/Resultat_3.txt && ts-node src/1-BASICS/4_function.ts > src/1-BASICS/Resultat_4.txt && ts-node src/1-BASICS/5_typings.ts > src/1-BASICS/Resultat_5.txt && ts-node src/1-BASICS/6_array.ts > src/1-BASICS/Resultat_6.txt && ts-node src/1-BASICS/7_object.ts > src/1-BASICS/Resultat_7.txt" 
 
   },
   "dependencies": {
