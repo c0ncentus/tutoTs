@@ -17,10 +17,18 @@ https://developer.mozilla.org/en-US/
     <!-- - Excel Viewer -->
     - HTML Play
 
-- 3 When you read code, if you see some commented code like ```typescript
+- 3 When you read code, if you see some commented code like 
+```typescript
 // const b = 3
 ``` 
 then use "ctrl + :" , you should see an error, and then try to understand and then re-use "ctrl + :" on the same line
+
+- 4 Resultat_x.txt show exaclut the terminal output so, value can be not as expected
+exemple:
+    -   [], "" are blank 
+    - ...
+    - FOR EXECUTING CODE USE THIS https://www.typescriptlang.org/play?#code
+
 
 # Memo
 
