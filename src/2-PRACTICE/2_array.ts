@@ -1,0 +1,14 @@
+[].every;
+[].some;
+[].filter;
+[].map;
+[].find;
+[].findIndex;
+[].flat;
+[].forEach;
+[].splice;
+[].sort;
+[].join;
+[].includes;
+[].indexOf;
+[].push;

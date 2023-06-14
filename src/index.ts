@@ -1,25 +1,6 @@
 
-[].every;
-[].some;
-[].filter;
-[].map;
-[].find;
-[].findIndex;
-[].flat;
-[].forEach;
-[].splice;
-[].sort;
-[].join;
-[].includes;
-[].indexOf;
-[].push;
 
 
-
-// let z:(string | number | boolean)[] = ["", 3, 10976677, true];
-
-
-// const r = 4;
 
 
 
