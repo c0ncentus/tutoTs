@@ -4,6 +4,7 @@
     "target": "ES2020",
     "noImplicitAny": false,
     "allowJs": true,
+    "checkJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -20,5 +21,6 @@
     "composite": true,
     "diagnostics": false
   },
-  "exclude": ["temp", "coverage", "dist", "package/**/dist/**/*"]
+  "exclude": ["temp", "coverage", "dist"],
+  "include": ["src"]
 }
