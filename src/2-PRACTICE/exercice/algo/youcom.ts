@@ -1,4 +1,4 @@
-function reverseString(str: string): string {
+function reverseStringY(str: string): string {
   let wordsArray = str.split(" ");
   let reverseArray = wordsArray.reverse();
   let reversedString = reverseArray.join(" ");
@@ -6,5 +6,5 @@ function reverseString(str: string): string {
 }
 
 let myString = "Bonjour, comment ça va ?";
-let reversed = reverseString(myString);
+let reversed = reverseStringY(myString);
 console.log(reversed);

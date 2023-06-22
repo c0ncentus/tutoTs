@@ -1,5 +1,5 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
-
+import {} from "../2-PRACTICE/exercice/algo/youcom"
 
 // BOOLEAN
 console.log(`(4 > 4) === false: ${(4 > 4) === false}`)
@@ -14,10 +14,10 @@ console.log(`(4 !== 4) === false: ${(4 !== 4) === false}`)
 //   (       false                        === false)
 //                          true
 
-console.log(`(false || false) === false: ${(false || false) === false}`)
+console.log(`(false || false) === false: ${(false || false)=== false}`)
 console.log(`(true || true) === true: ${(true || true) === true}`)
 console.log(`(true || false) === true: ${(true || false) === true}`)
-console.log(`(true && false) === false: ${(true && false) === false}`)
+console.log(`(true && false) === false: ${(true && false)=== false}`)
 console.log(`(true && true) === true: ${(true && true) === true}`)
 
 
@@ -41,11 +41,12 @@ console.log(`0 ??"is not nullish": ${0 ?? "is not nullish"}`)
 
 
 // STRING
-console.log(`"3"+"0": ${"3" + "0"}`)
-console.log(`"3"+"0": ${"3" + "0"}`)
+console.log(`"3"+"0": ${"3" + "0"}`)//"3"+"0":30
+console.log(`${reverseStringY("Bonjour, comment ça va ?")}`)
 
 
-console.log("Fr100".length)
+
+console.log("Fr100".length)//
 console.log("Fr100".repeat(2))
 console.log("Fr100".replace("0", "_"))
 console.log("Fr100".search("F"))
@@ -55,7 +56,7 @@ console.log("Fr100".substring(0, 3))
 console.log("Fr100".toUpperCase())
 console.log("Fr100".toLowerCase())
 console.log("  Fr100  ".trim())
-console.log(`"3"+"0": ${"3" + "0"}`)
+console.log(`${4>5}`)
 
 
 // === falsy value ===
